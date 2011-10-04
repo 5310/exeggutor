@@ -7,7 +7,7 @@ It only works with python now. Adding more languages, compile options, or custom
 # How to Install
 
 0.  Make sure Scribes is installed, duh.
-1.  Extract the archive into your home folder.
+1.  Extract [the archive](https://github.com/downloads/5310/Scribes-Exeggutor/exeggutor_v0.1.7z) into your home folder.
 2.  Merge (and overwrite, if necessary) as needed.
 3.  Press F5 on executable code to run with gnome-terminal.
 
