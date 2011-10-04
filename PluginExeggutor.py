@@ -1,9 +1,9 @@
 name = "Exeggutor"
 authors = ["Sayantan Chaudhuri <sayantan.chaudhuro@gmail.com>"]
-version = 0.0
+version = 0.1
 autoload = True
 class_name = "ExeggutorPlugin"
-short_description = "Execute ALL the codes!"
+short_description = "Execute ALL the codes! Well, only python, for now."
 long_description = '''A small plug-in to launch/execute/compile/etc codes being edited in Scribes, something it so alarmingly lacks.'''
 
 class ExeggutorPlugin(object):

@@ -20,8 +20,6 @@ class Exeggutor(SignalManager):
 		term = "gnome-terminal -x sh -c "
 		# Update the message bar.
 		self.__editor.update_message(message, "yes", 10)
-		## Show a window containing message.
-		#self.__editor.show_info(title, message, self.__editor.window)
 		# DO THE REAL THING!
 		os.system(term+'\"'+'python "'+uri[7:]+'" & '+"python -c 'raw_input()'"+'\"')
 		return False
